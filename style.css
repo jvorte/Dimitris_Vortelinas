@@ -1,0 +1,125 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Indie+Flower&family=Poppins:wght@400&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@500&display=swap');
+ /*
+  font-family: 'Hurricane', cursive;
+ font-family: 'Indie Flower', cursive;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Roboto Mono', monospace;
+ font-family: 'Roboto Slab', serif;
+  */
+  
+  * {
+    margin: 0;
+    padding: 0;
+
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+    body {
+        background-color:#030006;   
+    }
+  /* ------------------nav----------------------------- */
+    nav{
+        background-color:#030006; 
+    
+    }
+
+    .nav-link {
+        color: rgb(247, 243, 243);
+        font-family: 'Poppins', sans-serif;
+     
+      
+    }
+ 
+    .nav-link:hover {
+        background-color: #732739;
+        color: white;
+        border-radius: 5px; 
+    }
+    .bi-house ,.bi-person-video3 , .bi-code-square , .bi-person-rolodex {
+        color: rgb(149, 144, 165);
+        
+    }
+    .bi-translate{
+        
+        color: #2F81A4; 
+    }
+    .bi-list{
+        color: white;
+    }
+
+    /* ------------------end--nav--------------------------- */
+      /* ------------------home----------------------------- */
+
+    
+    .text h1{
+     
+        margin: 2vw 0 0 50px;
+        font-size: 5.0vw;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    .text h5{
+        margin: 50px;
+        font-size: 2vh;
+        color: rgb(139, 126, 126);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #home{
+       padding-top: 50px;
+       height: 51em;
+    }
+
+   /* ------------------end--home--------------------------- */
+
+      /* ------------------me--------------------------- */
+    #me{
+        background-image: url("img/9.jpg");
+        background-size: cover;
+        /* background-color: rgb(221, 230, 238); */
+        /* height: 58em; */
+        height: auto;
+    }
+
+    .me-title{
+        font-family: 'Roboto Slab', serif;
+        margin: 5vw 0 2vw 0;
+        font-size: 6vh;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+    }
+    .me-text{
+        font-family: 'Poppins', sans-serif; 
+        
+    }
+   
+    
+    .me-title2{
+        font-family: 'Roboto Slab', serif;
+        margin-top: 5%;
+        font-size: 6vh;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+    }
+ 
+    #left img{
+        margin: 20% 0 0 0;
+       
+    }
+
+    .bi-filetype-html , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
+        font-size: 6vh;
+        color: #B71442;
+        
+    }
+    .bi-filetype-html p{
+        font-size: 3vh;
+        font-family: 'Poppins', sans-serif; 
+    }
+    .list-know{
+        font-family: 'Poppins', sans-serif; 
+    }
+
+
+    /* ------------------end--me--------------------------- */

@@ -18,17 +18,19 @@
   }
 
     body {
-        background-color:#030006;   
+        background-color:#010103;   
+        font-family: 'Poppins', sans-serif; 
     }
   /* ------------------nav----------------------------- */
     nav{
-        background-color:#030006; 
+        background-color:#010103; 
     
     }
 
     .nav-link {
         color: rgb(247, 243, 243);
         font-family: 'Poppins', sans-serif;
+        
      
       
     }
@@ -57,13 +59,13 @@
     .text h1{
      
         margin: 2vw 0 0 50px;
-        font-size: 5.0vw;
+        font-size: 4.8vw;
         color: white;
         font-family: 'Roboto Slab', serif;
     }
-    .text h5{
+    .text h4{
         margin: 50px;
-        font-size: 2vh;
+        font-size: 3.5vh;
         color: rgb(139, 126, 126);
         font-family: 'Poppins', sans-serif;
     }
@@ -72,6 +74,7 @@
        padding-top: 50px;
        height: 51em;
     }
+  
 
    /* ------------------end--home--------------------------- */
 
@@ -83,6 +86,7 @@
         /* height: 58em; */
         height: auto;
     }
+ 
 
     .me-title{
         font-family: 'Roboto Slab', serif;
@@ -104,7 +108,7 @@
     }
  
     #left img{
-        margin: 20% 0 0 0;
+        margin: 15% 0 0 0;
        
     }
 
@@ -123,3 +127,149 @@
 
 
     /* ------------------end--me--------------------------- */
+
+
+     /* ------------------projects----------------------------- */
+
+    #projects{
+        background-color: rgb(221, 230, 238);    
+        height: auto;
+    }
+    #projects h1{
+        font-family: 'Roboto Slab', serif;
+        padding-top: 3%;
+        font-size: 6vh;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+    }
+    .card{
+        width: 21rem;
+        height: 25rem;
+       text-align: center;
+        border-radius: 15px; 
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+       
+      
+      }
+
+      .card h4{
+        font-family: 'Roboto Slab', serif;
+      }
+      .card h6{
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      .card img{
+        border-radius: 15px; 
+       height: 12rem;
+      }
+
+ /* ------------------end--projects--------------------------- */
+ /* ------------------------------------------------------- */
+#contact{
+    height: 890px;
+    background-color: #030006;
+  }
+  #contact h1 {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  padding-top: 270px;
+  }
+  #contact p ,label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+
+    #contact-input{
+  
+      padding-top: 250px;
+      }
+      #contact-input label{
+       color: #f3eef8;
+       font-size: 15px;
+        }
+        #contact-text span{
+          color: red;
+          font-family: 'Indie Flower', cursive;
+          font-size: 28px;
+        }
+     
+        #btn{
+          background-color:#1F252B ;;
+          color:white ;
+          font-family: 'Roboto Slab', serif;
+          width: 100%;
+        }
+        #or{
+          color: #868889;
+          font-family: 'Poppins', sans-serif;
+          text-align: center;
+        }
+  
+  /* ------------------------------------------------------- */
+  
+  /* ------------------------------------------------------- */
+  #footer-title h6 {
+    text-align: center;
+  }
+  footer span{
+    color: red;
+    font-family: 'Hurricane', cursive;
+    font-size: 30px;
+  
+  }
+  footer{
+   
+    background-color: #030006;
+    color: #e9e8e5;
+  }
+  /* ------------------------------------------------------- */
+  /* ----------------------shaking--------------------------------- */
+  .shaking {
+    font-weight:bold;
+    color:#333;
+    display:block;
+  }
+  .shaking:hover {    
+    -webkit-animation: shake 1s ease-in-out 0.1s infinite alternate;
+  }
+  
+  @-webkit-keyframes shake {
+  from {
+    -webkit-transform: rotate(5deg);
+  }
+  to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-5deg);
+  }
+  
+  }
+  /* ------------------------------------------------------- */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .text h4{
+        font-size: 18px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .text h4{
+        font-size: 18px;
+    }
+ }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

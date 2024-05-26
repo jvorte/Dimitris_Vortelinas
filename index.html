@@ -22,7 +22,7 @@
   
 </head>
   <body id="up">
-
+   <!--0.  nav section -->
           <nav class="navbar navbar-expand-lg sticky-top"  >
             <div class="container-fluid">
 
@@ -146,7 +146,7 @@
 
           </div>
         </div>
-
+        <script src="lib/download.js"></script>
         <!-- 2. end  About me second section -->
 
 
@@ -276,39 +276,41 @@
               
               <div class="col-sm-6" id="contact-input">
           
-          
                 <script src="lib/index.js"></script>
-          
+
                 <script
-                  type="text/javascript"
-                  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-                ></script>
-                <script type="text/javascript">
-                  (function () {
-                    emailjs.init("5XON576ncESEV7opm");
-                  })();
-                  
+                    type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
                 </script>
+
+                  <script type="text/javascript">
+                    (function () {
+                      emailjs.init("pcFrE1VnblVpeeYsF");
+                    })();
+                  </script>
+
                 <h6 id="or" >-oder senden Sie mir eine Nachricht-</h6>
-            <div class="mb-3">
+                <form action=""  name="myForm">
+                 <div class="mb-3">
                   <label for="formGroupExampleInput" class="form-label">Name</label>
-                  <input type="text" class="form-control"  id="name"placeholder="">
+                  <input type="text" class="form-control"  id="name"placeholder="" required>
                 </div>
                 <div class="mb-3">
                   <label for="formGroupExampleInput2" class="form-label">Email</label>
-                  <input type="text" class="form-control"    id="email" placeholder="">
+                  <input type="email" class="form-control"    id="email" placeholder="" required>
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Nachricht</label>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
+                  <textarea type="text" class="form-control" id="message" rows="3" required></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn shaking"  id="btn" onclick="sendMail()" type="submit">Schicken</button>
+                  <button class="btn" id="btn" onclick="sendMail()"  >Schicken</button>
                 </div>
-          
+              </form>
               </div>   
             </div>
           </div>
+     
           <!-- ------------------------------------------------------------------------------------------------------------------------ -->
           <footer>
             <nav class="">

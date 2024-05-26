@@ -1,0 +1,17 @@
+<a onclick="CheckValidation();" class="button" href="javascript:;">Register</a>
+
+function CheckValidation()
+{
+
+    var isValidForm = document.forms['REGform'].checkValidity();
+    if (isValidForm)
+    {
+        document.forms['REGform'].submit();
+    }
+    else
+    {
+
+        return false;
+    }
+
+}

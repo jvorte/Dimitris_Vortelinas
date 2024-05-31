@@ -83,7 +83,7 @@
         background-image: url("img/9.jpg");
         background-size: cover;
         /* background-color: rgb(221, 230, 238); */
-        height: 48em;
+        height: auto;
         
     }
  
@@ -142,12 +142,12 @@
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
     }
     .card{
-        width: 19rem;
+        width: 18rem;
         height: 25rem;
-       text-align: center;
+        text-align: center;
         border-radius: 15px; 
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-       
+       margin-left: 5%;
       
       }
 
@@ -188,7 +188,7 @@
         #contact-text span{
           color: #f05d5d; 
           font-family: 'Indie Flower', cursive;
-          font-size: 28px;
+          font-size: 2em;
         }
      
         #btn{

@@ -72,7 +72,7 @@
 
     #home{
        padding-top: 50px;
-       height: 51em;
+       height: auto;
     }
   
 
@@ -83,8 +83,8 @@
         background-image: url("img/9.jpg");
         background-size: cover;
         /* background-color: rgb(221, 230, 238); */
-        /* height: 58em; */
-        height: auto;
+        height: 48em;
+        
     }
  
 
@@ -142,7 +142,7 @@
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
     }
     .card{
-        width: 21rem;
+        width: 19rem;
         height: 25rem;
        text-align: center;
         border-radius: 15px; 
@@ -164,16 +164,16 @@
       }
 
  /* ------------------end--projects--------------------------- */
- /* ------------------------------------------------------- */
+ /* --------------------------Contact----------------------------- */
 #contact{
-    height: 890px;
+    height: auto;
     background-color: #030006;
   }
   #contact h1 {
   color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 60px;
-  padding-top: 270px;
+  
   }
   #contact p ,label {
     color: white;
@@ -181,16 +181,12 @@
     
     }
 
-    #contact-input{
-  
-      padding-top: 250px;
-      }
       #contact-input label{
        color: #f3eef8;
        font-size: 15px;
         }
         #contact-text span{
-          color: red;
+          color: #f05d5d; 
           font-family: 'Indie Flower', cursive;
           font-size: 28px;
         }
@@ -214,7 +210,7 @@
     text-align: center;
   }
   footer span{
-    color: red;
+    color: #f05d5d; 
     font-family: 'Hurricane', cursive;
     font-size: 30px;
   
@@ -269,7 +265,11 @@
 @media (min-width: 992px) {  }
 
 /*  X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+  .text h1{
+     font-size: 4.6vw;
+}
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }

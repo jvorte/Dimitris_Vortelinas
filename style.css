@@ -112,18 +112,18 @@
        
     }
 
-    .bi-filetype-html , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
+    .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
         font-size: 6vh;
         color: #B71442;
         
     }
-    .bi-filetype-html p{
-        font-size: 3vh;
+ 
+    /* .list-know{
         font-family: 'Poppins', sans-serif; 
-    }
-    .list-know{
-        font-family: 'Poppins', sans-serif; 
-    }
+        color: #732739;
+    } */
+
+   
 
 
     /* ------------------end--me--------------------------- */

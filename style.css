@@ -115,13 +115,12 @@
     .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
         font-size: 6vh;
         color: #B71442;
-        
     }
  
-    /* .list-know{
+    .list-know{
         font-family: 'Poppins', sans-serif; 
         color: #732739;
-    } */
+    }
 
    
 
@@ -142,13 +141,17 @@
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
     }
     .card{
-        width: 18rem;
+        width: 19rem;
         height: 25rem;
         text-align: center;
         border-radius: 15px; 
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-       margin-left: 5%;
+        margin: 0 auto;
       
+      }
+      .ok{
+          display: flex;
+        justify-content: center;
       }
 
       .card h4{

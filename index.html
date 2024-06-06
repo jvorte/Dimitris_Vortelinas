@@ -310,12 +310,69 @@
               </div>   
             </div>
           </div>
+          <!-- -------------------------------modal---------------------------------------- -->
+          <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+  Launch static backdrop modal
+</button> -->
 
+<!-- Modal -->
+<div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ok
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- ---------------------------------end modal-------------------------------------- -->
+           <!-- -------------------------------modal2---------------------------------------- -->
+          <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+  Launch static backdrop modal
+</button> -->
+
+<!-- Modal2 -->
+<div class="modal fade" id="contactModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        empty
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- ---------------------------------end modal2-------------------------------------- -->
+        
           <!-- ------------------------------------------------------------------------------------------------------------------------ -->
           <footer>
-            <nav class="">
+            <nav class="mt-xl-2">
               <div class="container-fluid" id="footer-title">
-                <h6>Created by <span>D.Vortelinas</span></h6>
+                <h6>Created by <span>D.Vortelinas</span>
+                  <i class="bi bi-c-circle"></i><p id="demo"></p></h6>
+                
+                <script>
+                  const d = new Date();
+                  let year = d.getFullYear();
+                  document.getElementById("demo").innerHTML = year;
+                  </script>
               </div>
             </nav>
           </footer>

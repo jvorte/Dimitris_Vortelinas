@@ -38,15 +38,15 @@
     .nav-link:hover {
         background-color: #732739;
         color: white;
-        border-radius: 5px; 
+        border-radius: 30px; 
     }
     .bi-house ,.bi-person-video3 , .bi-code-square , .bi-person-rolodex {
-        color: rgb(149, 144, 165);
+        color: rgb(139, 134, 156);
         
     }
     .bi-translate{
         
-        color: #f05d5d; 
+        color: #ee7474; 
     }
     .bi-list{
         color: white;

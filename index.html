@@ -322,20 +322,23 @@
 </button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" style=" font-family: 'Poppins', sans-serif; "  id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     
+        
+        <h1 class="modal-title fs-4" id="staticBackdropLabel">Εmail sent successfully! </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ok
+        <img src="img/mail1.gif" style="height: 4rem; width: 6rem;" class="card-img-top" alt="...">
+       I will contact you as soon as possible!
       </div>
-      <div class="modal-footer">
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Understood</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -370,15 +373,15 @@
           <footer>
             <nav class="mt-xl-2">
               <div class="container-fluid" id="footer-title">
-                <h6>Created by <span>D.Vortelinas</span>
-                  <i class="bi bi-c-circle"></i><p id="demo"></p></h6>
-                
+                <h6>Created by <span>D.Vortelinas </span><i class="bi bi-c-circle" id="date"></p></i></h6>
+               
+           </div>      
                 <script>
                   const d = new Date();
                   let year = d.getFullYear();
-                  document.getElementById("demo").innerHTML = year;
+                  document.getElementById("date").innerHTML = year;
                   </script>
-              </div>
+             
             </nav>
           </footer>
         </div>

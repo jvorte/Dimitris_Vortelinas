@@ -66,7 +66,7 @@
     }
     .text h4{
         margin: 50px;
-        font-size: 3.5vh;
+        font-size: 3.7vh;
         color: rgb(139, 126, 126);
         font-family: 'Poppins', sans-serif;
     }
@@ -236,7 +236,7 @@
   color: white;
   cursor: pointer;
   padding: 13px;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(185, 22, 104);
 }
 

@@ -178,6 +178,7 @@
   #contact{
   height: 100vh;
   background-color: #030006;
+ 
   }
 
   #contact h1 {
@@ -219,23 +220,33 @@
   
   /* ------------------------------------------------------- */
   
-  /* ------------------------------------------------------- */
+  /* --------------------footer----------------------------------- */
   #footer-title h6 {
     text-align: center;
+    clear: both;
+     
   }
   footer span{
     color: #f05d5d; 
     font-family: "Satisfy", cursive;
     font-size: 25px;
-  
-  }
-  footer{
-   height: auto;
-    background-color: #030006;
-    color: #e9e8e5;
+      
   }
 
-  /* ------------------------------------------------------- */
+  footer{  
+
+   
+   
+  }
+  footer{  
+    height: auto;
+    background-color: #030006;
+    color: #e9e8e5;
+   
+  }
+
+
+  /* --------------------end footer----------------------------------- */
   /* ----------------------shaking--------------------------------- */
   .shaking {
     font-weight:bold;
@@ -267,13 +278,22 @@
     .text h1{
         font-size: 30px;
     }
+
  }
+ @media (max-width: 736px) { 
+ 
+  #footer-title{
+    margin-top: 22%;
+   }
+}
+
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .text h4{
         font-size: 18px;
     }
+ 
  }
 
 /*  Large devices (desktops, 992px and up) */

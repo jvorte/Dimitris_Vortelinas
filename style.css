@@ -232,11 +232,12 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #f05d5d; 
+  background-color: #9F153C; 
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 25px;
+  padding: 13px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(185, 22, 104);
 }
 
 #upBtn:hover {

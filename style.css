@@ -98,7 +98,7 @@
     }
     .me-text{
         font-family: 'Poppins', sans-serif; 
-        font-size: 2.2vh;
+        font-size: 2vh;
     }
    
     
@@ -123,11 +123,12 @@
         font-family: 'Poppins', sans-serif; 
         color: #732739;
         font-size: 2vh;
+        
     }
-    .list-know button{
-      font-family: 'Poppins', sans-serif; 
-  
+    .list-know a{
+      font-family: 'Poppins', sans-serif;   
       font-size: 2vh;
+      color: #9e1919;
   }
 
 
@@ -273,7 +274,7 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
     .text h4{
-        font-size: 18px;
+        font-size: 20px;
     }
     .text h1{
         font-size: 30px;
@@ -285,6 +286,19 @@
   #footer-title{
     margin-top: 22%;
    }
+
+   .text h4{
+    font-size: 20px;
+}
+    .me-text {
+      font-size: 16px;
+    }
+    .list-group-item{
+      font-size: 16px;
+    }
+    .list-group-item a{
+      font-size: 16px;
+    }
 }
 
 

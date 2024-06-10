@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <link rel="shortcut icon" type="image/x-icon" href="img/window.png">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="shortcut icon" type="image/x-icon" href="img/window.png">
     
       <!-- Bootstrap Font Icon CSS -->      
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous"> 
@@ -137,19 +136,20 @@
                             <li class="list-group-item bg-transparent"><i class="bi bi-filetype-css"></i> CSS.</li>
                             <li class="list-group-item bg-transparent"><i class="bi bi-filetype-php"></i> Php.</li>
                             <li class="list-group-item bg-transparent"><i class="bi bi-filetype-js"></i> JavaScript.</li> 
-                            <li class="list-group-item bg-transparent"><i class="bi bi-bootstrap"></i> Bootstrap</li>                           
+                                        
                           </ul>
                         </div>
                         <div class="col-sm-6"  data-aos="zoom-out-right" >
-
+                         
                           <ul class="list-group list-group-flush list-know">
                             <li class="list-group-item bg-transparent"><i class="bi bi-filetype-sql"></i> Sql</li>
                             <li class="list-group-item bg-transparent">  <i class="bi bi-github"></i> GitHub</li>
                             <li class="list-group-item bg-transparent "><i class="bi bi-globe"></i> Sprachen : Griechisch , Englisch ,Deutsch</li>
-                            <li class="list-group-item bg-transparent " ><i class="bi bi-cloud-download"></i><a href="" id="download" onclick="downloadFile()"> Meine Unterlagen (CV,Zeugnis,Motivation)</a></li>
-                            
+                            <!-- <li class="list-group-item bg-transparent " ><i class="bi bi-cloud-download"></i><a href="" id="download" onclick="downloadFile()"> Meine Unterlagen (CV,Zeugnis,Motivation)</a></li> -->
+                            <li class="list-group-item bg-transparent"><i class="bi bi-bootstrap"></i> Bootstrap</li> 
+                            <li class="list-group-item bg-transparent " ><i class="bi bi-cloud-download"></i> <button3 type="button" id="download" class="btn" onclick="downloadFile()">Meine Unterlagen(CV,Zeugnis,Motivation)</button3></li>
                           </ul>
-                    
+                          <script src="lib/download.js"></script>  
                         </div>
                       </div>                   
                     </div>
@@ -160,7 +160,7 @@
    
        
        
-      <script src="lib/download.js"></script>  
+
       
         <!-- 2. end  About me second section -->
       
@@ -282,7 +282,7 @@
 
             <div class="row" id="contact-center">
           
-              <div class="col-sm-6 py-xl-5 py-md-5 mt-sm-5 text-center " id="contact-text">
+              <div class="col-sm-5 py-xl-5 py-md-5 mt-sm-5 text-center" id="contact-text">
                 <!-- class="shaking" -->
                 <h1 >Kontakt</h1>  
                 <p>Wenn Sie an einer Zusammenarbeit interessiert sind, können Sie mich einfach kontaktieren.</p>
@@ -290,9 +290,9 @@
            
               </div>
               
-              <div class="col-sm-6 py-xl-5 py-md-5" id="contact-input">
+              <div class="col-sm-5 py-xl-5 py-md-5" id="contact-input">
           
-                <script src="lib/index.js"></script>
+              
 
                 <script
                     type="text/javascript"
@@ -320,13 +320,15 @@
                   <textarea  class="form-control" id="message" rows="3" required></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn"  id="btn" onclick="sendMail()"  >Schicken</button>
+                  <button class="btn"  id="btn" onclick="sendMail()">Schicken</button>
                 </div>
               </form>
               </div>   
             </div>
             </div>
+            <script src="lib/email.js"></script>
           <!-- εδω ηταν ενα div και το εσβησα -->
+        </div>
           <!-- -------------------------------modal---------------------------------------- -->
           <!-- Button trigger modal -->
 <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">

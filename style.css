@@ -332,6 +332,12 @@
 
 }
 
+.card{
+  width: 16rem;
+  height: auto;
+
+}
+
   }
   
   /* // `md` applies to small devices (landscape phones, less than 768px) */

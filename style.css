@@ -91,28 +91,20 @@
         height: auto;
         
     }
- 
-
-    .me-title{
+      #right h1{
         font-family: 'Roboto Slab', serif;
         margin: 5vw 0 2vw 0;
         font-size: 6vh;
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
-    }
-    .me-text{
+
+      }
+      #right h6{
         font-family: 'Poppins', sans-serif; 
-        font-size: 2vh;
-        /* text-shadow: 1px 1px 2px #534b4d, 0 0 1em rgb(131, 96, 106), 0 0 0.2em rgb(53, 46, 50); */
+        font-size: 2.3vh;
         text-shadow: 1px 1px 2px rgb(97, 91, 92);
-    }
-   
-    
-    .me-title2{
-        font-family: 'Roboto Slab', serif;
-        margin-top: 5%;
-        font-size: 6vh;
-        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
-    }
+
+      }
+
  
     #left img{
         margin: 22% 0 0 0;
@@ -128,12 +120,12 @@
     .list-know{
         font-family: 'Poppins', sans-serif; 
         color: #732739;
-        font-size: 2vh;
+        font-size: 2.3vh;
         text-shadow: 1px 1px 2px rgb(97, 91, 92); 
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
-      font-size: 2vh;
+      font-size: 2.3vh;
       color: #d63939;
       text-shadow: 1px 1px 2px rgb(97, 91, 92);
   }
@@ -316,12 +308,7 @@
 
   @media (max-width: 375.98px) { 
 
-    .me-title{
-      font-size: 26px;
-    }
-    .me-text{
-      font-size: 6px;
-    }
+  
 
     .list-know{
       font-size: 16px;
@@ -343,14 +330,6 @@
       font-size: 14px;
     }
 
-    
-    .me-title{
-      font-size: 26px;
-    }
-    .me-text{
-      font-size: 26px;
-    }
-
 
     .card{
       width: 16rem;
@@ -364,28 +343,34 @@
   }
   
   /* // `md` applies to small devices (landscape phones, less than 768px) */
-  @media (max-width: 767.98px) { 
+  @media (min-width: 600.98px) { 
 
     
 
     #home{   
         height: auto;   
       } 
-      
-      .me-title{
-        font-size: 26px;
-      }
 
-      .me-text{
-        font-size: 16px;
+      #right h1{
+        font-family: 'Roboto Slab', serif;
+        margin: 5vw 0 2vw 0;
+        font-size: 10vh;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+  
       }
-
+      #right h6{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 4.5vh;
+        /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+  
+      }
+  
    
       .list-know{
-        font-size: 16px;
+        font-size: 4.5vh;
       }
       .list-know button3{
-        font-size: 16px;
+        font-size: 4.5vh;
       }
 
 
@@ -398,17 +383,60 @@
    }
   
   /* // `lg` applies to medium devices (tablets, less than 992px) */
-  @media (max-width: 991.98px) { 
+  @media (min-width: 750.98px) { 
 
    .text h1{     
       font-size: 6.8vw;  
+  }
+
+  #right h1{
+    font-family: 'Roboto Slab', serif;
+    margin: 5vw 0 2vw 0;
+    font-size: 6vh;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+
+  }
+  #right h6{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.1vh;
+    /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+
+  }
+
+
+  .list-know{
+    font-size: 2.1vh;
+  }
+  .list-know button3{
+    font-size: 2.1vh;
   }
   
    }
   
   /* // `xl` applies to large devices (desktops, less than 1200px) */
-  @media (max-width: 1199.98px) { 
-    
+  @media (min-width: 1000.98px) { 
+
+    #right h1{
+      font-family: 'Roboto Slab', serif;
+      margin: 5vw 0 2vw 0;
+      font-size: 7vh;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+  
+    }
+    #right h6{
+      font-family: 'Poppins', sans-serif; 
+      font-size: 2.8vh;
+      /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+  
+    }
+  
+  
+    .list-know{
+      font-size: 2.8vh;
+    }
+    .list-know button3{
+      font-size: 2.8vh;
+    }
    }
   
   /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */

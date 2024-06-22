@@ -319,7 +319,9 @@
           .me-text{    
             font-size: 1.8vh;    
         }
-        
+        .me-title{
+          font-size: 26px;
+        }
         
         .list-know{
           font-size: 1.8vh;

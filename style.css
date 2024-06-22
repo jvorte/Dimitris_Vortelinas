@@ -96,13 +96,14 @@
         margin: 5vw 0 2vw 0;
         font-size: 6vh;
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+        
 
       }
       #right h6{
         font-family: 'Poppins', sans-serif; 
         font-size: 2.3vh;
-        text-shadow: 1px 1px 2px rgb(97, 91, 92);
-
+        /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+       
       }
 
  
@@ -121,13 +122,13 @@
         font-family: 'Poppins', sans-serif; 
         color: #732739;
         font-size: 2.3vh;
-        text-shadow: 1px 1px 2px rgb(97, 91, 92); 
+        /* text-shadow: 1px 1px 2px rgb(97, 91, 92);  */
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
       font-size: 2.3vh;
       color: #d63939;
-      text-shadow: 1px 1px 2px rgb(97, 91, 92);
+      /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
   }
 
 
@@ -144,17 +145,16 @@
         background-color: rgb(255, 255, 255);    
         height: auto;
     }
-
-   .me-text{
-      font-size: 2vh; 
-  }
-
-    .me-title{
-        font-family: 'Roboto Slab', serif;
-        padding-top: 3%;
-        font-size: 6vh;
-        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+    #projects h1{
+      font-family: 'Roboto Slab', serif;
+      padding-top: 3%;
+      font-size: 6vh;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
     }
+    #projects p{
+      font-size: 2.3vh;
+    }
+  
     .card{
         width: 18rem;
         height: 25rem;
@@ -193,22 +193,25 @@
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
   }
   #contact-center{
-    padding-top: 20%;
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
   #contact p ,label {
     color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 6vh;
     
     }
+  
 
       #contact-input label{
        color: #f3eef8;
        font-size: 15px;
-       font-size: 2vh;
+       font-size: 2.3vh;
         }
 
         #contact-text p{
-          font-size: 2vh;
+          font-size: 2.3vh;
         }
 
         #contact-text span{
@@ -222,7 +225,7 @@
           color:white ;
           font-family: 'Roboto Slab', serif;
           width: 100%;
-          font-size: 2vh;
+          font-size: 2.3vh;
         }
         #or{
           color: #868889;
@@ -310,19 +313,12 @@
 
   
 
-    .list-know{
-      font-size: 16px;
-    }
-    .list-know button3{
-      font-size: 16px;
-    }
-  
-
   }
   
   /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) { 
-
+    
+   /* --------------------------------------------home---------------------------------------------------------- */
     .text h1{     
       font-size: 7.8vw;  
    }
@@ -330,27 +326,31 @@
       font-size: 14px;
     }
 
+   /* --------------------------------------------end home---------------------------------------------------------- */
+   
+  /* --------------------------------------------projects---------------------------------------------------------- */
+        .project-text{
+      font-size: 1.8vh;
+    }
 
     .card{
       width: 16rem;
       height: auto;  
     }
-
-    .project-text{
-      font-size: 1.8vh;
-    }
+    /* --------------------------------------------end projects---------------------------------------------------------- */
 
   }
   
   /* // `md` applies to small devices (landscape phones, less than 768px) */
   @media (min-width: 600.98px) { 
 
-    
+     /* -------------------------------------------home---------------------------------------------------------- */
 
     #home{   
         height: auto;   
       } 
-
+ /* -------------------------------------------home-me---------------------------------------------------------- */
+      /* --------------------------------------------me---------------------------------------------------------- */
       #right h1{
         font-family: 'Roboto Slab', serif;
         margin: 5vw 0 2vw 0;
@@ -360,7 +360,7 @@
       }
       #right h6{
         font-family: 'Poppins', sans-serif; 
-        font-size: 4.5vh;
+        font-size: 4.8vh;
         /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
   
       }
@@ -372,7 +372,10 @@
       .list-know button3{
         font-size: 4.5vh;
       }
+  /* -------------------------------------------end-me---------------------------------------------------------- */
 
+    /* --------------------------------------------projects---------------------------------------------------------- */
+        /* --------------------------------------------end projects---------------------------------------------------------- */
 
       footer{  
 
@@ -385,9 +388,7 @@
   /* // `lg` applies to medium devices (tablets, less than 992px) */
   @media (min-width: 750.98px) { 
 
-   .text h1{     
-      font-size: 6.8vw;  
-  }
+   /* --------------------------------------------me---------------------------------------------------------- */
 
   #right h1{
     font-family: 'Roboto Slab', serif;
@@ -410,12 +411,16 @@
   .list-know button3{
     font-size: 2.1vh;
   }
+
+    /* -------------------------------------end--me---------------------------------------------------------- */
+      /* --------------------------------------------projects---------------------------------------------------------- */
+        /* --------------------------------------------end projects---------------------------------------------------------- */
   
    }
   
   /* // `xl` applies to large devices (desktops, less than 1200px) */
   @media (min-width: 1000.98px) { 
-
+  /* --------------------------------------------me---------------------------------------------------------- */
     #right h1{
       font-family: 'Roboto Slab', serif;
       margin: 5vw 0 2vw 0;
@@ -429,17 +434,42 @@
       /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
   
     }
-  
-  
+    
     .list-know{
       font-size: 2.8vh;
     }
     .list-know button3{
       font-size: 2.8vh;
     }
+      /* ----------------------------------------end--me---------------------------------------------------------- */
+  /* --------------------------------------------projects---------------------------------------------------------- */
+        /* --------------------------------------------end projects---------------------------------------------------------- */
    }
   
   /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-  @media (max-width: 1399.98px) { 
-    
+  @media (min-width: 1399.98px) { 
+  /* --------------------------------------------me---------------------------------------------------------- */
+    #right h1{
+      font-family: 'Roboto Slab', serif;
+      margin: 5vw 0 2vw 0;
+      font-size: 6vh;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+  
+    }
+    #right h6{
+      font-family: 'Poppins', sans-serif; 
+      font-size: 2.2vh;
+      /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+  
+    }  
+  
+    .list-know{
+      font-size: 2.2vh;
+    }
+    .list-know button3{
+      font-size: 2.2vh;
+    }
+      /* ------------------------------------------end--me---------------------------------------------------------- */
+        /* --------------------------------------------projects---------------------------------------------------------- */
+        /* --------------------------------------------end projects---------------------------------------------------------- */
    }

@@ -312,11 +312,11 @@
 
   /* ===================================================MEDIA============================================================================= */
 
-  @media (min-width: 375.98px) { 
+@media (min-width: 375.98px) { 
     
     /* ----------------------home---------------------------------------------------------- */
     .text h1{     
-      font-size: 6.8vw;  
+      font-size: 6.5vw;  
    }
  
     /* ------------------end home---------------------------------------------------------- */
@@ -335,12 +335,17 @@
     /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
 
   }
+  .list-know{
+    font-size: 4.8vh;
+  }
+  .list-know button3{
+    font-size: 4.8vh;
+  }
 
      /* ---------------------end me---------------------------------------------------------- */
  
    }
-  
-  @media (max-width: 575.98px) { 
+ @media (max-width: 575.98px) { 
     
    /* ----------------------home---------------------------------------------------------- */
     .text h1{     
@@ -366,7 +371,7 @@
   }
   
 
-  @media (min-width: 600.98px) { 
+@media (min-width: 600.98px) { 
 
      /* -------------------------------------------home---------------------------------------------------------- */
 
@@ -400,24 +405,24 @@
   /* -------------------------------------------end-me---------------------------------------------------------- */
 
     /* --------------------------------------------projects---------------------------------------------------------- */
-#projects h1{
-  font-family: 'Roboto Slab', serif;
-  margin: 5vw 0 2vw 0;
-  font-size: 10vh;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
-}
+        #projects h1{
+          font-family: 'Roboto Slab', serif;
+          margin: 5vw 0 2vw 0;
+          font-size: 10vh;
+          text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+        }
 
-#projects p{
-  font-family: 'Poppins', sans-serif; 
-  font-size: 4.8vh;
-  /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
-}
-.list-know{
-  font-size:4.8vh;
-}
-.list-know button3{
-  font-size: 4.8vh;
-}
+        #projects p{
+          font-family: 'Poppins', sans-serif; 
+          font-size: 4.8vh;
+          /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+        }
+        .list-know{
+          font-size:4.8vh;
+        }
+        .list-know button3{
+          font-size: 4.8vh;
+        }
 
         /* --------------------------------------------end projects---------------------------------------------------------- */
 
@@ -430,52 +435,51 @@
    }
   
 
-  @media (min-width: 750.98px) { 
+@media (min-width: 750.98px) { 
 
    /* --------------------------------------------me---------------------------------------------------------- */
 
-  #right h1{
-    font-family: 'Roboto Slab', serif;
-    margin: 5vw 0 2vw 0;
-    font-size: 6vh;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
-
-  }
-  #right h6{
-    font-family: 'Poppins', sans-serif; 
-    font-size: 2.1vh;
-    /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
-
-  }
-
-
-  .list-know{
-    font-size: 2.1vh;
-  }
-  .list-know button3{
-    font-size: 2.1vh;
-  }
-
-    /* -------------------------------------end--me---------------------------------------------------------- */
-      /* --------------------------------------------projects---------------------------------------------------------- */
-      #projects h1{
+      #right h1{
         font-family: 'Roboto Slab', serif;
         margin: 5vw 0 2vw 0;
         font-size: 6vh;
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+
       }
-      
-      #projects p{
+      #right h6{
         font-family: 'Poppins', sans-serif; 
         font-size: 2.1vh;
         /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+
       }
+
+
+        .list-know{
+          font-size: 2.1vh;
+        }
+        .list-know button3{
+          font-size: 2.1vh;
+        }
+
+    /* -------------------------------------end--me---------------------------------------------------------- */
+      /* --------------------------------------------projects---------------------------------------------------------- */
+          #projects h1{
+            font-family: 'Roboto Slab', serif;
+            margin: 5vw 0 2vw 0;
+            font-size: 6vh;
+            text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+          }
+          
+          #projects p{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 2.1vh;
+            /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+          }
         /* --------------------------------------------end projects---------------------------------------------------------- */
   
    }
   
-
-  @media (min-width: 1000.98px) { 
+   @media (min-width: 1000.98px) { 
   /* --------------------------------------------me---------------------------------------------------------- */
     #right h1{
       font-family: 'Roboto Slab', serif;

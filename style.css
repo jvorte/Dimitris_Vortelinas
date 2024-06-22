@@ -340,19 +340,15 @@
 
     .text h1{     
       font-size: 7.8vw;  
-  }
-  .text h2{
-   
-    font-size: 13px;
-  
+   }
+    .text h2{   
+      font-size: 15px;
+    }
 
-}
-
-.card{
-  width: 16rem;
-  height: auto;
-
-}
+    .card{
+      width: 16rem;
+      height: auto;  
+    }
 
   }
   

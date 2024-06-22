@@ -9,6 +9,7 @@
   */
   @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
   /* font-family: "Satisfy", cursive; */
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
   * {
     margin: 0;
     padding: 0;
@@ -102,7 +103,7 @@
       #right h6{
         font-family: 'Poppins', sans-serif; 
         font-size: 2.3vh;
-        /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+        text-shadow: 1px 1px 2px rgb(97, 91, 92);
        
       }
 
@@ -122,13 +123,13 @@
         font-family: 'Poppins', sans-serif; 
         color: #732739;
         font-size: 2.3vh;
-        /* text-shadow: 1px 1px 2px rgb(97, 91, 92);  */
+        text-shadow: 1px 1px 2px rgb(97, 91, 92); 
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
       font-size: 2.3vh;
       color: #d63939;
-      /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
+      text-shadow: 1px 1px 2px rgb(97, 91, 92);
   }
 
 
@@ -153,6 +154,7 @@
     }
     #projects p{
       font-size: 2.3vh;
+      text-shadow: 1px 1px 2px rgb(97, 91, 92);
     }
   
     .card{
@@ -162,7 +164,7 @@
         border-radius: 15px; 
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
         margin: 0 auto;
-      
+        text-shadow: 1px 1px 1px rgb(97, 91, 92);
       }
    
 
@@ -322,6 +324,10 @@
     /* ------------------end home---------------------------------------------------------- */
     
    /* ---------------------me---------------------------------------------------------- */
+   #left img{
+    padding: 2% 0 0 0;
+   
+}
    #right h1{
     font-family: 'Roboto Slab', serif;
     margin: 5vw 0 2vw 0;
@@ -349,14 +355,17 @@
     
    /* ----------------------home---------------------------------------------------------- */
     .text h1{     
-      font-size: 7.8vw;  
+      font-size: 7.1vw;  
    }
     .text h2{   
       font-size: 14px;
     }
 
    /* ------------------end home---------------------------------------------------------- */
+   #left img{
+    padding: 2% 0 0 0;
    
+}
   /* ---------------------projects---------------------------------------------------------- */
         .project-text{
       font-size: 1.8vh;
@@ -393,7 +402,10 @@
         /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
   
       }
-  
+      #left img{
+        padding: 2% 0 0 0;
+       
+    }
    
       .list-know{
         font-size: 5vh;
@@ -417,12 +429,7 @@
           font-size: 5vh;
           /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
         }
-        .list-know{
-          font-size: 5vh;
-        }
-        .list-know button3{
-          font-size: 5vh;
-        }
+    
 
         /* --------------------------------------------end projects---------------------------------------------------------- */
 
@@ -452,7 +459,10 @@
         /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
 
       }
-
+      #left img{
+        padding: 2% 0 0 0;
+       
+    }
 
         .list-know{
           font-size: 2.1vh;
@@ -482,24 +492,23 @@
    @media (min-width: 1000.98px) { 
   /* --------------------------------------------me---------------------------------------------------------- */
     #right h1{
-      font-family: 'Roboto Slab', serif;
-   
+      font-family: 'Roboto Slab', serif;   
       font-size: 7vh;
       text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
   
     }
     #right h6{
       font-family: 'Poppins', sans-serif; 
-      font-size: 2.8vh;
+      font-size: 2.4vh;
       /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
   
     }
     
     .list-know{
-      font-size: 2.8vh;
+      font-size: 2.4vh;
     }
     .list-know button3{
-      font-size: 2.8vh;
+      font-size: 2.4vh;
     }
       /* ----------------------------------------end--me---------------------------------------------------------- */
   /* --------------------------------------------projects---------------------------------------------------------- */
@@ -512,9 +521,11 @@
   
   #projects p{
     font-family: 'Poppins', sans-serif; 
-    font-size: 2.6vh;
+    font-size: 2.4vh;
     /* text-shadow: 1px 1px 2px rgb(97, 91, 92); */
   }
         /* --------------------------------------------end projects---------------------------------------------------------- */
    }
   
+
+   

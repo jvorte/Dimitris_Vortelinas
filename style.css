@@ -153,11 +153,11 @@
         height: auto;
     }
 
-    #projects p{
+   .me-text{
       font-size: 2vh; 
   }
 
-    #projects h1{
+    .me-title{
         font-family: 'Roboto Slab', serif;
         padding-top: 3%;
         font-size: 6vh;
@@ -316,24 +316,20 @@
 
   @media (max-width: 375.98px) { 
 
-          .me-text{    
-            font-size: 1.8vh;    
-        }
-        .me-title{
-          font-size: 26px;
-        }
-        
-        .list-know{
-          font-size: 1.8vh;
-        
-      }
-      .list-know button3{
-        font-size: 1.8vh;
+    .me-title{
+      font-size: 26px;
+    }
+    .me-text{
+      font-size: 16px;
+    }
 
-      }
-      .text-center{
-        font-size: 1.6vh;
-      }
+    .list-know{
+      font-size: 16px;
+    }
+    .list-know button3{
+      font-size: 16px;
+    }
+  
 
   }
   
@@ -346,17 +342,23 @@
     .text h2{   
       font-size: 14px;
     }
-    .me-text{
-      font-size: 16px;
-    }
 
+    
     .me-title{
       font-size: 26px;
     }
+    .me-text{
+      font-size: 26px;
+    }
+
 
     .card{
       width: 16rem;
       height: auto;  
+    }
+
+    .project-text{
+      font-size: 1.8vh;
     }
 
   }
@@ -368,21 +370,25 @@
 
     #home{   
         height: auto;   
-      }  
+      } 
+      
+      .me-title{
+        font-size: 26px;
+      }
 
       .me-text{
         font-size: 16px;
       }
 
-      .me-title{
-        font-size: 26px;
-      }
+   
       .list-know{
         font-size: 16px;
       }
       .list-know button3{
         font-size: 16px;
       }
+
+
       footer{  
 
         margin-top: 50px;

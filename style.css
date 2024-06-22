@@ -316,27 +316,24 @@
 
   @media (max-width: 375.98px) { 
 
-    .me-text{    
-      font-size: 1.8vh;    
+          .me-text{    
+            font-size: 1.8vh;    
+        }
+        
+        
+        .list-know{
+          font-size: 1.8vh;
+        
+      }
+      .list-know button3{
+        font-size: 1.8vh;
+
+      }
+      .text-center{
+        font-size: 1.6vh;
+      }
+
   }
-  
-  .list-know{
-    font-size: 1.8vh;
-  
-}
-.list-know button3{
-  font-size: 1.8vh;
-
-}
-.text-center{
-  font-size: 1.6vh;
-}
-
-
-  }
-
-
-
   
   /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) { 
@@ -347,8 +344,12 @@
     .text h2{   
       font-size: 14px;
     }
-    .text-center{
-      font-size: 1.6vh;
+    .me-text{
+      font-size: 16px;
+    }
+
+    .me-title{
+      font-size: 26px;
     }
 
     .card{
@@ -361,11 +362,18 @@
   /* // `md` applies to small devices (landscape phones, less than 768px) */
   @media (max-width: 767.98px) { 
 
+    
+
     #home{   
         height: auto;   
       }  
-      #right h6{
+
+      .me-text{
         font-size: 16px;
+      }
+
+      .me-title{
+        font-size: 26px;
       }
       .list-know{
         font-size: 16px;

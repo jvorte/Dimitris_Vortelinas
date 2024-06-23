@@ -277,16 +277,12 @@
       
   }
 
-  footer{  
-
-   margin-top: 150px;
-   
-  }
+ 
   footer{  
     height: auto;
     background-color: #030006;
     color: #e9e8e5;
-   
+    margin-top: 150px;
   }
 
 
@@ -585,4 +581,38 @@
    }
          /* --------------------------------------------end projects---------------------------------------------------------- */
 
+          /* --------------------------Contact----------------------------- */
+
+  
+    #contact h1 {
+      font-size: 7vh;
+    }
+    #contact-center{
+      padding-top: 15%;
+      padding-bottom: 5%;
+    }
+
+    #contact p ,label {
+        font-size: 7vh;      
+      }
+    
+  
+        #contact-input label{
+          font-size: 3.2vh;
+          }
+  
+          #contact-text p{
+            font-size: 3.2vh;
+          }
+  
+          #contact-text span{
+            font-size: 3.2vh;
+          }
+       
+          #btn{
+            font-size: 3.2vh;
+          }
+          #or{
+            font-size: 3.2vh;
+          }
 }

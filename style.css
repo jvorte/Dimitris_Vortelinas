@@ -209,8 +209,7 @@
   
 
       #contact-input label{
-       color: #f3eef8;
-       font-size: 15px;
+       color: #f3eef8;       
        font-size: 2.3vh;
         }
 
@@ -588,8 +587,8 @@
       font-size: 7vh;
     }
     #contact-center{
-      padding-top: 15%;
-      padding-bottom: 5%;
+      padding-top: 5%;
+      padding-bottom: 3%;
     }
 
     #contact p ,label {

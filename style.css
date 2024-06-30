@@ -85,30 +85,44 @@
 
       /* ------------------me--------------------------- */
     #me{
-        background-image: url("img/9.jpg");
-        background-size: cover;
+        /* background-image: url("img/52.jpg");
+        background-size: cover; */
+        background-color:#FFFFFF ;
         height: auto;
         
     }
-    .me-right h1{
+
+    .me-left h1{
         font-family: 'Roboto Slab', serif;
-        margin: 5vw 0 2vw 0;
+        margin: 0.5vw 0 2vw 0;
         font-size: 6vh;
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
         
 
       }
-      .me-right h6{
+      .me-left h6{
         font-family: 'Poppins', sans-serif; 
         font-size: 2.3vh;
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
        
       }
+      .me-left img{
+      width: 250px;
+      float: left; 
+ 
+      }
+
 
  
-      .me-left img{
-        padding: 42% 0 0 0;
-       
+
+    
+    .me-right h1{
+      font-family: 'Roboto Slab', serif;
+      margin: 0.5vw 0 2vw 0;
+      font-size: 6vh;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+      
+
     }
 
     .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
@@ -141,7 +155,7 @@
      /* ------------------projects----------------------------- */  
 
     #projects{
-        background-color: rgb(255, 255, 255);    
+        background-color: rgb(237, 239, 245);    
         height: auto;
     }
     #projects h1{

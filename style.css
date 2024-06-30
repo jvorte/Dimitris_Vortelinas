@@ -102,46 +102,48 @@
       }
       .me-left h6{
         font-family: 'Poppins', sans-serif; 
-        font-size: 2.3vh;
-        text-shadow: 1px 1px 1px rgb(139, 130, 131);
+        font-size: 2.2vh;
+        /* text-shadow: 1px 1px 1px rgb(139, 130, 131); */
        
       }
       .me-left img{
-      width: 250px;
+      width: 400px;
       float: left; 
  
       }
 
 
- 
-
-    
-    .me-right h1{
-      font-family: 'Roboto Slab', serif;
-      margin: 0.5vw 0 2vw 0;
-      font-size: 6vh;
-      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
-      
-
-    }
-
-    .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
+      .me-right h1{
+        font-family: 'Roboto Slab', serif;
+        margin: 0.5vw 0 2vw 0;
         font-size: 6vh;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+        
+  
+      }
+
+ 
+      .me-right .bi{
+        font-size: 45px;
+        }
+
+    /* .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
+      
         color: #534b4d;
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
-    }
+    } */
  
     .list-know{
         font-family: 'Poppins', sans-serif; 
         color: #732739;
-        font-size: 2.3vh;
-        text-shadow: 1px 1px 1px rgb(139, 130, 131);
+        font-size: 2.2vh;
+        /* text-shadow: 1px 1px 1px rgb(139, 130, 131); */
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
-      font-size: 2.3vh;
+      font-size: 2.2vh;
       color: #d63939;
-      text-shadow: 1px 1px 1px rgb(139, 130, 131);
+      /* text-shadow: 1px 1px 1px rgb(139, 130, 131); */
   }
 
 

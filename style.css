@@ -348,36 +348,35 @@
 
 @media (max-width: 736.98px) { 
   .home-title h1{
-
-    font-size: 6.4vw;     
+    font-size: 8vw;     
 }
 .home-title h2{
-  font-size: 3.2vw;  
+  font-size: 4.3vw;  
 }
 
   /* ---------------------------------------- */
 .me-right h1{
-  font-size: 6.4vw;     
+  font-size: 7.5vw;     
 }
 .me-right h6{
-  font-size: 18px;   
+  font-size: 16px;   
 }
 .me-left img{
 width: 380px;
 }
 .list-know li{
-  font-size: 18px;   
+  font-size: 16px;    
 }
 .list-know button3{
-  font-size: 18px;   
+  font-size: 16px;   
 }
 
 /* ---------------------------------------- */
 #projects h1{
-  font-size: 6.4vw;
+  font-size: 7.5vw;  
 }
 #projects p{
-  font-size: 18px;
+  font-size: 16px;  
 }
 #contact-text h1{
   font-size: 6.4vw;   
@@ -395,16 +394,16 @@ width: 380px;
   font-size: 16px;
 }
 #contact-input label{
-  font-size: 18px;
+  font-size: 16px;  
 }
 #contact-input button{
-  font-size: 18px;
+  font-size: 16px;  
 }
 #footer-title h6{
-  font-size: 18px;
+  font-size: 16px;  
 }
 #footer-title span{
-  font-size: 22px;
+  font-size: 20px;
 }
 
    }

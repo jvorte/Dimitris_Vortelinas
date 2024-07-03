@@ -85,72 +85,48 @@
 
       /* ------------------me--------------------------- */
     #me{
-         background-image: url("img/9.jpg");
-        background-size: cover; 
-        background-color:#FFFFFF ;
+        background-image: url("img/9.jpg");
+        background-size: cover;
         height: auto;
         
     }
-   
-
-    .me-left h1{
+    .me-right h1{
         font-family: 'Roboto Slab', serif;
-        margin: 8.5vw 0 2vw 0;
+        padding: 50px 0 30px 0;
         font-size: 6vh;
         text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
         
+
       }
-
-      .me-left{
-           margin: 0vw 100px 8vw 0;          
-      } 
-
-      .me-left h6{
+      .me-right h6{
         font-family: 'Poppins', sans-serif; 
-        font-size: 2.2vh;
-        text-shadow: 1px 1px 1px rgb(83, 69, 70);
-        margin: 80px 10px 0 0;
+        font-size: 2.3vh;
+        text-shadow: 1px 1px 1px rgb(139, 130, 131);
        
-      }
-      .me-left img{
-      width: 200px;
-      float: left; 
-      margin: 0 10px 0 0;
-      }
-
-
-      .me-right h1{
-        font-family: 'Roboto Slab', serif;
-        margin: 8.5vw 0 2vw 0;
-        font-size: 6vh;
-        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
-        
-  
       }
 
  
-      .me-right .bi{
-        font-size: 45px;
-     
-        }
 
-    /* .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
-      
+
+    .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
+        font-size: 6vh;
         color: #534b4d;
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
-    } */
+    }
  
     .list-know{
         font-family: 'Poppins', sans-serif; 
         color: #732739;
-        font-size: 2.2vh;
-        text-shadow: 1px 1px 1px rgb(83, 69, 70);
+        font-size: 2.3vh;
+        text-shadow: 1px 1px 1px rgb(139, 130, 131);
+        padding-bottom: 50px;
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
-      font-size: 2.2vh;
+      font-size: 2.3vh;
       color: #d63939;
-      text-shadow: 1px 1px 1px rgb(83, 69, 70);
+      text-shadow: 1px 1px 1px rgb(139, 130, 131);
+    
   }
 
 
@@ -164,7 +140,7 @@
      /* ------------------projects----------------------------- */  
 
     #projects{
-        background-color: rgb(237, 239, 245);    
+        background-color: rgb(255, 255, 255);    
         height: auto;
     }
     #projects h1{
@@ -211,6 +187,11 @@
   background-color: #030006;
  
   }
+  .me-img{
+    width: 180px;
+    border-radius: 50%;
+   
+}
 
   #contact h1 {
   color: white;
@@ -219,7 +200,7 @@
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
   }
   #contact-center{
-    padding-top: 15%;
+    padding-top: 5%;
  
   }
   #contact p ,label {
@@ -253,6 +234,7 @@
           font-size: 2.3vh;
         }
         #or{
+          padding-top: 14%;
           color: #868889;
           font-family: 'Poppins', sans-serif;
           text-align: center;
@@ -340,30 +322,21 @@
     font-size: 7.6vw;     
 }
 .home-title h2{
-  font-size: 18px;  
+  font-size: 4.8vw;  
 }
 
 /* ---------------------------------------- */
-.me-left h1{
-  font-size: 136px; 
-  text-align: center;  
-}
-.me-left h6{
-  font-size: 16px;  
-  text-align: center;   
-}
-
 .me-right h1{
-  font-size: 7.6vw; 
-  text-align: center;  
+  font-size: 7.6vw;   
 }
-
-.list-know .bi{
-  font-size: 16px;   
-   
+.me-right h6{
+  font-size: 18px;   
+}
+.list-know li{
+  font-size: 18px;   
 }
 .list-know button3{
-  font-size: 16px;    
+  font-size: 18px;   
 }
 
 /* ---------------------------------------- */
@@ -387,7 +360,7 @@
 }
 
   /* ---------------------------------------- */
-.me-left h1{
+.me-right h1{
   font-size: 7.5vw;     
 }
 .me-right h6{

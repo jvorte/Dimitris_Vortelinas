@@ -240,7 +240,7 @@
           text-align: center;
           font-size: 2vh;
         }
-        .card-img-top{
+        .card-img-top-mail{
           width: 20vw; 
          
         }
@@ -357,7 +357,7 @@
 
 @media (max-width: 736.98px) { 
   .home-title h1{
-    font-size: 8.5vw;      
+    font-size: 8vw;      
 }
 .home-title h2{
   font-size: 18px;  
@@ -368,16 +368,16 @@
   font-size: 8vw;     
 }
 .me-right h6{
-  font-size: 18px;   
+  font-size: 16px;   
 }
 .me-left img{
 width: 380px;
 }
 .list-know li{
-  font-size: 20px;    
+  font-size: 16px;     
 }
 .list-know button3{
-  font-size: 20px;   
+  font-size: 16px;    
 }
 
 /* ---------------------------------------- */
@@ -385,22 +385,22 @@ width: 380px;
   font-size: 7vw;  
 }
 #projects p{
-  font-size: 18px;   
+  font-size: 16px;    
 }
 #contact-text h1{
   font-size: 6.4vw;   
 
 }
 #contact-text p{
-  font-size: 18px;
+  font-size: 16px;
 
 }
 #contact-text span{
-  font-size: 22px;
+  font-size: 16px;
 
 }
 #or{
-  font-size: 18px; 
+  font-size: 16px;
 }
 #contact-input label{
   font-size: 16px;  
@@ -409,10 +409,10 @@ width: 380px;
   font-size: 16px;  
 }
 #footer-title h6{
-  font-size: 18px;  
+  font-size: 16px;  
 }
 #footer-title span{
-  font-size: 20px;
+  font-size: 18px;
 }
 
    }

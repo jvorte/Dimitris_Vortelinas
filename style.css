@@ -188,7 +188,7 @@
  
   }
   .me-img{
-    width: 180px;
+    width: 45%;
     border-radius: 50%;
    
 }
@@ -240,10 +240,7 @@
           text-align: center;
           font-size: 2vh;
         }
-        .card-img-top-mail{
-          width: 20vw; 
-         
-        }
+      
   
   /* ------------------------------------------------------- */
  /* ------------------------arrow------------------------------- */
@@ -365,14 +362,16 @@
 
   /* ---------------------------------------- */
 .me-right h1{
-  font-size: 8vw;     
+  font-size: 40px;     
 }
 .me-right h6{
   font-size: 16px;   
 }
-.me-left img{
-width: 380px;
+.me-img{
+  margin: 40px 0 0px 0;
+  width: 70%;
 }
+
 .list-know li{
   font-size: 16px;     
 }
@@ -418,6 +417,13 @@ width: 380px;
    }
  /* ============================================================== */ 
    @media (min-width: 1000.98px) { 
+    .me-img{
+      margin: 10px 0 20px 0;
+  
+    }
+    .me-right h1{
+      font-size: 60px;     
+    }
   }
   
 

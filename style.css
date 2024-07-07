@@ -90,17 +90,22 @@
         height: auto;
         
     }
+    .me-img{
+      width: 210px;
+      border-radius: 40%;
+    }
+
     .me-right h1{
         font-family: 'Roboto Slab', serif;
         padding: 50px 0 30px 0;
-        font-size: 6vh;
-        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+        font-size: 50px;
+        text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 3px rgb(139, 0, 69);
         
 
       }
       .me-right h6{
         font-family: 'Poppins', sans-serif; 
-        font-size: 2.3vh;
+        font-size: 20px;
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
        
       }
@@ -109,22 +114,22 @@
 
 
     .bi-filetype-html ,.bi-bootstrap , .bi-filetype-css , .bi-filetype-php , .bi-filetype-js , .bi-filetype-sql, .bi-github , .bi-cloud-download , .bi-globe{
-        font-size: 6vh;
-        color: #534b4d;
+      font-size: 35px;
+  
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
     }
  
     .list-know{
         font-family: 'Poppins', sans-serif; 
-        color: #732739;
-        font-size: 2.3vh;
+   
+        font-size: 20px;
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
         padding-bottom: 50px;
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
-      font-size: 2.3vh;
-      color: #d63939;
+      font-size: 20px;
+      color: #7e0f07;
       text-shadow: 1px 1px 1px rgb(139, 130, 131);
     
   }
@@ -146,8 +151,8 @@
     #projects h1{
       font-family: 'Roboto Slab', serif;
       padding-top: 3%;
-      font-size: 6vh;
-      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+      font-size: 50px;
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 3px rgb(139, 0, 69);
     }
     #projects p{
       font-size: 2.3vh;
@@ -187,43 +192,40 @@
   background-color: #030006;
  
   }
-  .me-img{
-    width: 45%;
-    border-radius: 50%;
-   
-}
+
 
   #contact h1 {
   color: white;
   font-family: 'Roboto Slab', serif;
-  font-size: 6vh;  
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(139, 0, 69);
+  font-size: 50px;  
+  margin: 40px;
+
   }
   #contact-center{
-    padding-top: 5%;
+    padding-top: 8%;
  
   }
   #contact p ,label {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 6vh;
+    font-size: 20px;
     
     }
   
 
       #contact-input label{
        color: #f3eef8;       
-       font-size: 2.3vh;
+       font-size: 20px;
         }
 
         #contact-text p{
-          font-size: 2.3vh;
+          font-size: 20px;
         }
 
         #contact-text span{
           color: #f05d5d; 
           font-family: 'Indie Flower', cursive;
-          font-size: 1.6em;
+          font-size: 22px;
         }
      
         #btn{
@@ -231,14 +233,14 @@
           color:white ;
           font-family: 'Roboto Slab', serif;
           width: 100%;
-          font-size: 2.3vh;
+          font-size: 20px;
         }
         #or{
           padding-top: 14%;
           color: #868889;
           font-family: 'Poppins', sans-serif;
           text-align: center;
-          font-size: 2vh;
+          font-size: 20px;
         }
       
   
@@ -259,7 +261,7 @@
   cursor: pointer;
   padding: 13px;
   border-radius: 20px;
-  box-shadow: 1px 1px 2px black, 0 0 25px rgb(209, 209, 218), 0 0 5px rgb(185, 22, 104);
+
 }
 
 #upBtn:hover {
@@ -362,7 +364,7 @@
 
   /* ---------------------------------------- */
 .me-right h1{
-  font-size: 40px;     
+  font-size: 35px;     
 }
 .me-right h6{
   font-size: 16px;   
@@ -381,13 +383,13 @@
 
 /* ---------------------------------------- */
 #projects h1{
-  font-size: 7vw;  
+  font-size: 35px;   
 }
 #projects p{
   font-size: 16px;    
 }
 #contact-text h1{
-  font-size: 6.4vw;   
+  font-size: 35px;   
 
 }
 #contact-text p{

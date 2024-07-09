@@ -123,7 +123,7 @@
         font-family: 'Poppins', sans-serif;    
         font-size: 18px;
         text-shadow: 1px 1px 1px rgb(139, 130, 131);
-        padding-bottom: 50px;
+        padding-bottom: 90px;
     }
     .list-know button3{
       font-family: 'Poppins', sans-serif;   
@@ -204,7 +204,7 @@ width: 80px;
 
   }
   #contact-center{
-    padding-top: 8%;
+    padding-top: 9%;
  
   }
   #contact p ,label {

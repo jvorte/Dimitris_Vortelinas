@@ -194,13 +194,16 @@
   .img-mail{
     width: 80px;
   }
+  #contact-text img{
+height: 170px;
+  }
 
 
   #contact h1 {
   color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 50px;  
-  margin: 100px 0 50px 0;
+  margin: 0px 0 50px 0;
 
   }
   #contact-center{

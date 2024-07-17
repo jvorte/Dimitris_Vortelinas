@@ -195,7 +195,13 @@
     width: 80px;
   }
   #contact-text img{
-height: 170px;
+    padding: 0px 0 0 0px;
+    height: 120px;
+  
+  }
+  #contact-img{
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -203,7 +209,7 @@ height: 170px;
   color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 50px;  
-  margin: 0px 0 50px 0;
+  margin: 18px 0 0px 0;
 
   }
   #contact-center{

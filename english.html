@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="shortcut icon" type="image/x-icon" href="img/window.png">
+    
+      <!-- Bootstrap Font Icon CSS -->      
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous"> 
+     <!-- Bootstrap CSS -->  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+  
+         <!-- aos------------------------------------------------------------------ -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- -----------------------------typed---------------------------------------------- -->
+  
+         <script src="lib/typed.js"></script>
+     <!-- --------------------------------------------------------------------------- -->
+     <title>D.Vortelinas</title>
+</head>
+
+  <body id="up">
+
+<!-- back to the top button  -->
+    <button onclick="topFunction()" id="upBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+    <script src="lib/arrow.js"></script>
+ <!--end back to the top button  -->
+        
+   <!--0.  nav section -->
+          <nav class="navbar navbar-expand-lg sticky-top"  >
+            <div class="container-fluid" >
+       
+
+              <button1 class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"> </i>
+              </button1>
+        
+     
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto  mb-2 mb-lg-0 ms-lg-5 ">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger fs-5 me-2"  href="#up"><i class="bi bi-house me-2"></i>Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  fs-5 me-2 js-scroll-trigger" href="#me" ><i class="bi bi-person-video3 me-2"></i>About Me</a>                        
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 me-2 js-scroll-trigger" href="#projects"><i class="bi bi-code-square me-2"></i>Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 me-2 js-scroll-trigger"  href="#contact"><i class="bi bi-person-rolodex me-2"></i>Contact</a>
+                      </li>
+                     
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 me-2 js-scroll-trigger" href="index.html"><i class="bi bi-translate me-2"></i>DE</a>
+                      </li>
+                </ul>
+             
+              </div>
+            </div>
+          </nav>
+        <!--0. end nav section -->
+
+        <main>
+
+        <!--1. first section -->
+        <div class="container-fluid py-xl-5 " id="home">        
+              
+ 
+                <div class="row ">
+                    <div class="col-lg-6 col-md-12 my-lg-5 home-title" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                      <h1 >
+                         I am Dimitris Vortelinas. <br><span class="type"></span>
+                      </h1>                
+                      <h2>
+                        I am a passionate web developer who loves creating digital products.
+                      </h2>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 my-lg-5  home-img" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="img/blur2.jpg" class="img-fluid " alt="" srcset="">
+                    </div>
+                </div>
+             
+
+        </div>
+        
+             <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+             <script>  
+                var typed = new Typed('.type', {
+                  strings: [
+                    'A Web Developer',
+                    'A Web Designer'
+                ],
+                  typeSpeed: 60,
+                  backSpeed: 60,
+                  loop: true
+                });  
+              </script>
+    <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+<!-- Return to Top -->
+
+        <!--1. end first section -->
+
+         <!--2. About me second section -->
+      
+
+
+   
+       <div class="container-fluid" id="me">
+        <div class="container me-right">
+                <div class="container text-center" >
+            <div class="row">
+              <div class="col-sm-6 col-xl-5 my-xl-5"><img class="img-fluid me-img"  src="img/me.jpg" alt="" srcset=""></div>
+              <div class="col-sm-4 col-xl-3 my-xl-5">
+
+                <h1 class="text-center " >About Me</h1>
+                
+              </div>
+            </div>        
+          </div>
+               
+          <h6 class="text-center" data-aos="zoom-in-up"  data-aos-duration="1000" >I have worked for many years in the field of IT, in 2016 I was
+             fascinated by web design and in recent years we have been working professionally. We collaborated with many great developers and created many 
+             beautiful things. I enjoy my job creating complete websites that  are functional and responsive on all devices. I am always open to any challenge!</h6>
+           
+            <h1 class="text-center">My Knowledge</h1>
+  
+  
+            <div class="container">
+             <div class="row">
+  
+               <div class="col-sm-6 col-md-4 col-xl-4 list-know" data-aos="zoom-in-up"  data-aos-duration="1000">
+                 <ul class="list-group list-group-flush ">
+                   <li class="list-group-item bg-transparent"><i class="bi bi-filetype-html"></i> Html.</li>
+                   <li class="list-group-item bg-transparent"><i class="bi bi-filetype-css"></i> CSS.</li>
+                   <li class="list-group-item bg-transparent"><i class="bi bi-filetype-php"></i> Php, Laravel</li>
+                   <li class="list-group-item bg-transparent"><img src="img/Docker.png"style="width: 45px;" srcset=""> Docker</li>                                                        
+                 </ul>
+               </div>
+
+               <div class="col-sm-6 col-md-4 col-xl-4 list-know" data-aos="zoom-in-up"  data-aos-duration="1000">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent"><i class="bi bi-filetype-sql"></i> Sql</li>
+                  <li class="list-group-item bg-transparent"><i class="bi bi-github"></i> GitHub</li>
+                
+                  <li class="list-group-item bg-transparent"><i class="bi bi-bootstrap"></i> Bootstrap</li> 
+                </ul>
+                 
+              </div>
+  
+               <div class="col-sm-6  col-md-4 col-xl-4 list-know"  data-aos="zoom-out-up" data-aos-duration="1000">                         
+                 <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent"><i class="bi bi-filetype-js"></i> JavaScript, JQuery</li>                  
+                   <li class="list-group-item bg-transparent "><i class="bi bi-globe"></i> Sprachen : Griechisch , Englisch , Deutsch</li>
+                   <li class="list-group-item bg-transparent " ><i class="bi bi-cloud-download"></i> <button3 type="button" id="download" onclick="downloadFile()">CV , Zeugnis , Motivation.</button3></li>      
+                 </ul>
+                 <script src="lib/download.js"></script>  
+               </div>
+  
+             </div>                   
+           </div>
+        </div>
+       </div>
+       
+
+      
+        <!-- 2. end  About me second section -->
+      
+        
+        
+        <!--3. Projects third section -->
+    
+
+        <div class="container-fluid" id="projects">
+          
+
+          <h1 class="text-center  pt-xl-5" data-aos="fade-down">Some of my projects</h1>
+          <p class="text-center" data-aos="fade-down">It's only the first page but the projects are saved in my DataBank.</p>
+
+          <div class="container ">
+
+
+            <div class="row justify-content-center row-cols-lg-3 g-2 g-lg-2 all-projects">
+
+              <div class="col">
+                <div class="p-3" data-aos="zoom-in-up"  data-aos-duration="1000">          
+                  <div class="card">
+                    <img src="img/tshirt.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">'Orange' Tshirt eshop</h4>
+                      <h6 class="card-text">Is a website (e-commerce) for selling clothes where the user can design his own logo or some kind of print (Html, CSS, Bootstrap, php).</h6>
+                      <!-- <a href="#" class="btn ">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="p-3" data-aos="zoom-in-up"  data-aos-duration="1000">
+                  <div class="card">
+                    <img src="img/truePastaLovers.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">'TruePastaLovers'</h4>
+                      <h6 class="card-text">It is a website with pasta recipes for pasta lovers, the history of pasta and a contact page (Html, CSS, Bootstrap, php).</h6>
+                      <!-- <a href="#" class="btn ">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="p-3" data-aos="zoom-in-up"  data-aos-duration="1000">
+                  <div class="card">
+                    <img src="img/hotel.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">'Rita' Hotel</h4>
+                      <h6 class="card-text">On a hotel website, the user can make a reservation and select a
+                        room. The admin then has complete administrative management (Html, Css, Bootstrap, php).</h6>
+                      <!-- <a href="#" class="btn ">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="col">
+                <div class="p-3" data-aos="zoom-in-up"  data-aos-duration="1000">
+                  <div class="card">
+                    <img src="img/Orange.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">'Orange' old eshop</h4>
+                      <h6 class="card-text">Is a website (old version of e-shop) for selling clothes where the user can design his own logo or some kind of print. (Html ​​, CSS , Bootstrap , php)</h6>
+                      <!-- <a href="#" class="btn ">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="col">
+                <div class="p-3" data-aos="zoom-in-up"  data-aos-duration="1000">
+                  <div class="card">
+                    <img src="img/webdoor.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">'WebDoor'</h4>
+                      <h6 class="card-text">This is a website promoting web design services.
+                         The visitor chooses one of the ready-made templates (Html, CSS, Bootstrap, PHP).</h6>
+                      <!-- <a href="#" class="btn ">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+        
+           
+        
+              <div class="col">
+                <div class="p-3" data-aos="zoom-in-up"  data-aos-duration="1000">
+                  <div class="card">
+                    <img src="img/diary.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">'Diary'</h4>
+                      <h6 class="card-text">A blog called "Diary" is written in Laravel. The user can enter his text, edit his text, delete it.
+                         Other users can comment in a user-friendly graphical environment (Html, CSS, Bootstrap, php-Laravel).</h6>
+                      <!-- <a href="#" class="btn ">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        
+
+        </div>
+      </div>
+        <!-- 3. end Projects first section -->
+
+
+        <!--4. Contact foth section -->
+
+
+        <div class="container-fluid">
+
+
+          <div class="container " data-aos="zoom-in-up"  data-aos-duration="1000" id="contact">
+
+            <div class="row justify-content-center" id="contact-center">
+          
+              <div class="col-sm-12 col-md-6  col-xl-6  py-xl-5 py-md-5 mt-sm-5 text-center" id="contact-text">
+
+                <div class="container  text-center mt-md-5" id="contact-img">
+                  <div class="row">
+                    <div class="col-sm-5  mt-xl-4"><img src="img/6.png" alt="" srcset=""></div>
+                    <div class="col-sm-4 mt-sm-3  mt-xl-5"><h1>Contact</h1></div>
+                  </div>
+                
+                </div>
+
+
+                <p>You can contact me in the following ways.</p>
+                <p>Mobile : <span> +4368864818152</span></p><p>Email : <span> jvortelinas@gmail.com</span></p>
+           
+              </div>
+              
+              <div class="col-sm-10 col-md-6  col-xl-6 py-xl-5 py-md-5" id="contact-input">
+          
+              
+
+             
+
+                <h6 id="or" >-or send me a message-</h6>
+                <form action=""  name="myForm">
+                 <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Name</label>
+                  <input type="text" class="form-control"  id="name" placeholder="" required>
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label">Email</label>
+                  <input type="email" class="form-control"    id="email" placeholder="" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea  class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn"  id="btn" onclick="sendMail()">Send</button>
+                </div>
+   
+              </form>
+              </div> 
+             
+              
+            </div>
+            </div>
+
+         <!-- email scripts -->
+        <script src="lib/email.js"></script>
+        <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+       </script>
+
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("pcFrE1VnblVpeeYsF");
+        })();
+      </script>
+        <!-- end email scripts -->
+         
+
+        </div>
+          <!-- -------------------------------modal---------------------------------------- -->
+
+<!-- Modal -->
+<div class="modal fade" style=" font-family: 'Poppins', sans-serif; "  id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+     
+        
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center" >
+        <img src="img/mobile-check.gif"  class="img-mail" alt="...">
+        Εmail sented successfully! Thank you!
+      </div>
+
+    </div>
+  </div>
+</div>
+ <!-- ---------------------------------end modal-------------------------------------- -->
+           <!-- -------------------------------modal2---------------------------------------- -->
+
+<!-- Modal2 -->
+<div class="modal fade" id="contactModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        empty
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+ <!-- ---------------------------------end modal2-------------------------------------- -->
+        
+          <!-- -----------------------------footer------------------------------------------------------------------------------------------- -->
+          <footer>
+            <nav class="mt-xl-5 ">
+              <div class="container-fluid" id="footer-title">
+                <h6>Created by <span>D.Vortelinas </span><i class="bi bi-c-circle" id="date"></p></i></h6>               
+             </div>                       
+             </nav>
+          </footer>
+      
+          <script>
+            const d = new Date();
+            let year = d.getFullYear();
+            document.getElementById("date").innerHTML = year;
+            </script> 
+        
+        <!-- 4. end forth section -->
+
+   
+
+    <script>AOS.init();</script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+ <!-- auto close mobile navbar  -->
+ <script type="text/javascript">    
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+    });
+</script>  
+<!-- ----------------------------------------- -->
+  </body>
+</html>

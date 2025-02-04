@@ -81,6 +81,40 @@
     padding-bottom: 150px;
    }
 
+
+
+
+
+   .btn-cta {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.btn-cta {
+  background-color: #ff3333; /* Έντονο χρώμα */
+  color: white;
+  padding: 15px 40px; /* Μεγαλύτερη επιφάνεια */
+  font-size: 1.2em;
+  border-radius: 50px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-cta:hover {
+    background-color: #3498db; /* Μπλε κατά το hover */
+    transform: scale(1.1); /* Ελαφρώς μεγαλύτερο */
+}
+
    /* ------------------end--home--------------------------- */
 
       /* ------------------me--------------------------- */
